@@ -6,3 +6,6 @@ const resultCub = Math.sqrt(25,3) // raiz cúbica
 
 console.log(`O resultado da raiz quadrada é ${resultRaiz}`)
 console.log(`O resultado da raiz cúbica é ${resultCub}`)
+
+const resultPi = Math.PI
+console.log(`O resultado de PI é: ${resultPi}`)
