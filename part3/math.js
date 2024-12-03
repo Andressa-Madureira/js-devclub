@@ -9,3 +9,6 @@ console.log(`O resultado da raiz cúbica é ${resultCub}`)
 
 const resultPi = Math.PI
 console.log(`O resultado de PI é: ${resultPi}`)
+
+const resultCima = Math.ceil(3.14)  //arredonda para cima
+console.log(`O valor arrendonda para cima é: ${resultCima}`)
