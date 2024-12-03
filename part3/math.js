@@ -15,3 +15,6 @@ console.log(`O valor arredondando para cima é: ${resultCima}`)
 
 const resultBaixo = Math.floor(3.14) // arrendoda para baixo
 console.log(`O valor arredondando para baixo é: ${resultBaixo} `)
+
+const resultRandom = Math.random() // sempre tras um número aleatório entre 0 e 1
+console.log(resultRandom)
