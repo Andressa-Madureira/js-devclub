@@ -11,4 +11,7 @@ const resultPi = Math.PI
 console.log(`O resultado de PI é: ${resultPi}`)
 
 const resultCima = Math.ceil(3.14)  //arredonda para cima
-console.log(`O valor arrendonda para cima é: ${resultCima}`)
+console.log(`O valor arredondando para cima é: ${resultCima}`)
+
+const resultBaixo = Math.floor(3.14) // arrendoda para baixo
+console.log(`O valor arredondando para baixo é: ${resultBaixo} `)
