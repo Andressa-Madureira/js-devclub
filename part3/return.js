@@ -29,7 +29,7 @@ Todos od produtos acima de R$30,00 tem desconto de 10%
 
 const cart = [10, 244, 99, 2, 20, 33, 250]
 
-let finalValue = 0
+let finalValueWithDiscount = 0
 
 function calculateDiscount(price, discount) {
     const result = price * discount / 100
@@ -41,13 +41,13 @@ function calculateDiscount(price, discount) {
 cart.forEach(value => {
     if (value > 30) {
         const discount = calculateDiscount(value, 10)
-        finalValue = finalValue + (value - discount)
+        finalValueWithDiscount = finalValueWithDiscount + (value - discount)
     } else {
-        finalValue += value
+        finalValueWithDiscount += value
     }
 
     
 });
 
-console.log(`O valor final da compra foi de  , porém você teve o desconto e irá pagar apenas o valor de ${finalValue}. Você economizou`
+console.log(`O valor final da compra foi de  , porém você teve o desconto e irá pagar apenas o valor de ${finalValueWithDiscount.toFixed(2)}. Você economizou`
 )
