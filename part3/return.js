@@ -34,18 +34,20 @@ let finalValue = 0
 function calculateDiscount(price, discount) {
     const result = price * discount / 100
     return result
-
+    
 }
+
 
 cart.forEach(value => {
     if (value > 30) {
         const discount = calculateDiscount(value, 10)
-        
         finalValue = finalValue + (value - discount)
     } else {
         finalValue += value
     }
+
+    
 });
 
-console.log(`O valor final da compra foi de , porém você teve o desconto e irá pagar apenas o valor de ${finalValue}. Você economizou`
+console.log(`O valor final da compra foi de  , porém você teve o desconto e irá pagar apenas o valor de ${finalValue}. Você economizou`
 )
